@@ -1,0 +1,31 @@
+.service__item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2),
+    -2px -2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.service__item:hover {
+  background-color: rgb(243, 237, 237);
+}
+.service__item span i {
+  font-size: 2.5rem;
+  color: #9a031e;
+}
+
+.service__item h6 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.service__item h6:hover {
+  color: #9a031e;
+}
+
+@media only screen and (max-width: 768px) {
+  .service__item h6 {
+    font-size: 1.1rem;
+  }
+}
